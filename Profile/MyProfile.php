@@ -16,7 +16,7 @@
         
         <div class="section mt-4">
             <div class="container">
-                <div class="card shadow-sm" style="border: 1px solidrgb(0, 0, 0); border-radius: 10px;">
+                <div class="card shadow-sm" style="border-shadow: 1px solidrgb(0, 0, 0); border-radius: 10px;">
                      <div class="card-body">
                          <div class="row align-items-center">
                              <div class="col-auto d-flex justify-content-start">
@@ -31,25 +31,143 @@
                          <div class="row mt-4 text-center">
                             <div class="col">
                                 <i class="bi bi-bag-check" style="font-size: 20px; color: #6c757d;"></i>
-                                <div style="font-size: 10px; margin-top: 5px;">Items sold</div>
+                                <div style="font-size: 14px; font-weight: bold; margin-top: 3px;">24</div>
+                                <div style="font-size: 10px; margin-top: 2px;">Items sold</div>
                             </div>
                             <div class="col">
                                 <i class="bi bi-list-ul" style="font-size: 20px; color: #6c757d;"></i>
-                                <div style="font-size: 10px; margin-top: 5px;">Active Listings</div>
+                                <div style="font-size: 14px; font-weight: bold; margin-top: 3px;">8</div>
+                                <div style="font-size: 10px; margin-top: 2px;">Active Listings</div>
                             </div>
                             <div class="col">
                                 <i class="bi bi-people" style="font-size: 20px; color: #6c757d;"></i>
-                                <div style="font-size: 10px; margin-top: 5px;">Followers</div>
+                                <div style="font-size: 14px; font-weight: bold; margin-top: 3px;">156</div>
+                                <div style="font-size: 10px; margin-top: 2px;">Followers</div>
                             </div>
                             <div class="col">
                                 <i class="bi bi-person-plus" style="font-size: 20px; color: #6c757d;"></i>
-                                <div style="font-size: 10px; margin-top: 5px;">Following</div>
+                                <div style="font-size: 14px; font-weight: bold; margin-top: 3px;">42</div>
+                                <div style="font-size: 10px; margin-top: 2px;">Following</div>
                             </div>
                          </div>
                      </div>
                 </div>
             </div>
         </div>
+
+        <style>
+            .btn, .btn-link{
+                background-color: #FEFEFE;
+                width: 100%;
+                text-decoration: none;
+                color: inherit;
+                border: none;
+                padding: 10px 15px;
+                text-align: left;
+            }
+            .btn-link:hover{
+                background-color: #f8f9fa;
+                color: inherit;
+                text-decoration: none;
+            }
+        </style>
+
+        <section class="seller mt-3">
+            <div class="container w-100">
+                <h3 style="font-size: 18px; color: #533626; font-weight: 700; font-size: 15px;">Seller</h3>
+                <div class="card shadow-sm" style="border-shadow: 1px solidrgb(0, 0, 0); border-radius: 10px;">
+                     <div class="card-body">
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-shop me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Shop</div>
+                                         <p class="text-muted" style="font-size: 10px;">Manage your products</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-graph-up me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Sales</div>
+                                         <p class="text-muted" style="font-size: 10px;">View sales analytics</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-chat-dots me-2" style="font-size: 12px; margin-top: 2px;"></i>
+                                     <div>
+                                         <div>Buyer Comments</div>
+                                         <p class="text-muted" style="font-size: 10px;">Read customer feedback</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-credit-card me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Payment Methods</div>
+                                         <p class="text-muted" style="font-size: 10px;">Manage payment options</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-check-circle me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Payment Approvals</div>
+                                         <p class="text-muted" style="font-size: 10px;">Review pending payments</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Buyer mt-3 mb-3">
+            <div class="container w-100">
+                <h3 style="font-size: 18px; color: #533626; font-weight: 700; font-size: 15px;">Buyer</h3>
+                <div class="card shadow-sm" style="border-shadow: 1px solidrgb(0, 0, 0); border-radius: 10px;">
+                    <div class="card-body">
+                     <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-cart me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Orders</div>
+                                         <p class="text-muted" style="font-size: 10px;">Track your purchases</p>
+                                     </div> 
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-heart me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Wishlist</div>
+                                         <p class="text-muted" style="font-size: 10px;">Saved items</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
 
