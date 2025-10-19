@@ -21,7 +21,7 @@
         </button>
         
         <div class="mt-8">
-          <a href="onboarding.php" class="text-gray-600 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-300 text-sm">
+          <a href="onboarding.php" class="text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300 text-sm">
             ← Back to onboarding
           </a>
         </div>
@@ -36,12 +36,12 @@
             <div class="sm:mx-auto sm:w-full sm:max-w-sm text-center">
               <div class="mb-8">
                 <h1 class="text-4xl font-bold text-gray-900 dark:text-white">
-                  COP<span class="text-gray-600">it</span>.
+                  COP<span class="text-indigo-600">it</span>.
                 </h1>
               </div>
               
               <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mb-8">
-                <div class="bg-gray-600 h-2 rounded-full animate-pulse" style="width: 30%"></div>
+                <div class="bg-indigo-600 h-2 rounded-full animate-pulse" style="width: 30%"></div>
               </div>
               
               <p class="text-gray-600 dark:text-gray-300">Loading your experience...</p>

@@ -137,7 +137,7 @@
             </div>
         </section>
 
-        <section class="Buyer mt-3 mb-3">
+        <section class="buyer mt-3 mb-3">
             <div class="container w-100">
                 <h3 style="font-size: 18px; color: #533626; font-weight: 700; font-size: 15px;">Buyer</h3>
                 <div class="card shadow-sm" style="border-shadow: 1px solidrgb(0, 0, 0); border-radius: 10px;">
@@ -160,6 +160,38 @@
                                      <div>
                                          <div>My Wishlist</div>
                                          <p class="text-muted" style="font-size: 10px;">Saved items</p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="general" mt-3 mb-3">
+            <div class="container w-100">
+                <h3 style="font-size: 18px; color: #533626; font-weight: 700; font-size: 15px;">General</h3>
+                <div class="card shadow-sm" style="border-shadow: 1px solidrgb(0, 0, 0); border-radius: 10px;">
+                    <div class="card-body">
+                     <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-cart me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Address</div>
+                                         <p class="text-muted" style="font-size: 10px;">Manage your addresses</p>
+                                     </div> 
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="row mb-3">
+                             <div class="col d-flex justify-content-start">
+                                 <a href="#" class="btn-link d-flex align-items-start">
+                                     <i class="bi bi-heart me-2" style="margin-top: 2px;"></i>
+                                     <div>
+                                         <div>My Password</div>
+                                         <p class="text-muted" style="font-size: 10px;">Change Password</p>
                                      </div>
                                  </a>
                              </div>
