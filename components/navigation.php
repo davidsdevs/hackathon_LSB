@@ -35,8 +35,20 @@
         <span class="text-xs text-gray-600 dark:text-gray-400">Add</span>
       </button>
 
+      <!-- Messages -->
+      <a href="messaging.php" class="flex flex-col items-center space-y-1 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative">
+        <div class="w-6 h-6 flex items-center justify-center">
+          <svg class="w-5 h-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+          </svg>
+        </div>
+        <span class="text-xs text-gray-600 dark:text-gray-400">Messages</span>
+        <!-- Message Badge -->
+        <div class="absolute -top-1 -right-1 w-3 h-3 bg-blue-500 rounded-full" id="messageBadge" style="display: none;"></div>
+      </a>
+
       <!-- Notifications -->
-      <button class="flex flex-col items-center space-y-1 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative">
+      <a href="notifications.php" class="flex flex-col items-center space-y-1 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative">
         <div class="w-6 h-6 flex items-center justify-center">
           <svg class="w-5 h-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5v-5zM4.828 7l2.586 2.586a2 2 0 002.828 0L12.828 7H4.828z"></path>
@@ -44,8 +56,8 @@
         </div>
         <span class="text-xs text-gray-600 dark:text-gray-400">Alerts</span>
         <!-- Notification Badge -->
-        <div class="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full"></div>
-      </button>
+        <div class="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full" id="notificationBadge"></div>
+      </a>
 
       <!-- Profile -->
       <a href="/profile" class="flex flex-col items-center space-y-1 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
@@ -100,8 +112,20 @@
         <span class="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-white">Add Item</span>
       </button>
 
+      <!-- Messages -->
+      <a href="messaging.php" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group relative">
+        <div class="w-5 h-5 flex items-center justify-center">
+          <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+          </svg>
+        </div>
+        <span class="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-white">Messages</span>
+        <!-- Message Badge -->
+        <div class="absolute left-8 top-2 w-2 h-2 bg-blue-500 rounded-full" id="desktopMessageBadge" style="display: none;"></div>
+      </a>
+
       <!-- Notifications -->
-      <button class="w-full flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group relative">
+      <a href="notifications.php" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group relative">
         <div class="w-5 h-5 flex items-center justify-center">
           <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5v-5zM4.828 7l2.586 2.586a2 2 0 002.828 0L12.828 7H4.828z"></path>
@@ -109,8 +133,8 @@
         </div>
         <span class="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-white">Notifications</span>
         <!-- Notification Badge -->
-        <div class="absolute left-8 top-2 w-2 h-2 bg-red-500 rounded-full"></div>
-      </button>
+        <div class="absolute left-8 top-2 w-2 h-2 bg-red-500 rounded-full" id="desktopNotificationBadge"></div>
+      </a>
 
       <!-- Profile -->
       <a href="/profile" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group">
