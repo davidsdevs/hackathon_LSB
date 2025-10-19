@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COPit! - Sign Up</title>
+    <title>COPit! - Sign test</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="h-full">
@@ -13,7 +13,7 @@
     <img src="/assets/icon.png" alt="COPit!" class="mx-auto h-12 w-auto dark:hidden" />
     <img src="/assets/icon.png" alt="COPit!" class="mx-auto h-12 w-auto not-dark:hidden" />
   
-    <h2 class="mt-6 text-center text-2xl/9 font-bold tracking-tight text-gray-900 dark:text-white">Create your account</h2>
+    <h2 class="mt-6 text-center text-2xl/9 font-bold tracking-tight text-gray-900 dark:text-white">Create youraccount</h2>
   </div>
 
   <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
